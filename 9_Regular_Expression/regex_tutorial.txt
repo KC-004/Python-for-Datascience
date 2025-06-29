@@ -1,0 +1,65 @@
+Metacharacter:
+
+\d	- Digit (0-9)
+
+\D	- No digit, other than:(0-9)
+
+\w	- word Character (a-z, A-Z, _)
+
+\W	- Not a word Character, other than:(a-z, A-Z, _)
+
+\s	- Whitespace (space, newline, tab)
+
+\S	- Not whitespace, other than:(space, newline, tab)
+
+.	- Any character except the new line
+
+\	- Ignore any special character
+
+^	- Beginning of a string
+
+$	- End of a string
+
+
+Quantifiers:   (greedy: match longest possible string, lazy: shortest possible string)
+
+*	- 0 or more (greedy)
+
++	- 1 or more (greedy)
+
+?	- 0 or 1 (lazy)
+
+.	- Any character except the new line
+
+{3}	- Exact number
+
+{n,}	- More than n characters
+
+{3, 4}	- Range of number (min, max)
+
+( )	-Group
+
+[ ]	- Matches characters in the bracket
+
+[^ ]	- Matches characters not in the bracket
+
+|	- OR
+
+\b	- Word boundary
+
+\B	- No Word boundary
+
+\1	- Reference, Repeating the string
+
+
+
+
+
+
+
+
+
+
+
+
+
